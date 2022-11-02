@@ -18,6 +18,10 @@ const Counter = () => {
 
     }
 
+    const resetmethod = ()=> {
+        functon(varib*0)
+    }
+
     return (
         <div>
             <Buttons colorScheme='blue' buttonName='Plus' onclick={()=>plusMethod()}/>
@@ -25,6 +29,8 @@ const Counter = () => {
             <Buttons colorScheme='teal' buttonName={varib}  />
 
             <Buttons colorScheme='blue' buttonName='Minus' onclick={()=>minusMethod()}/>
+
+         <div>  <Buttons colorScheme='red' buttonName='Reset' onclick={()=>resetmethod()}/> </div> 
         </div>
 
     )

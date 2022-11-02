@@ -11,18 +11,22 @@ import Counter from '../Components/counter'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    
+    <Box justifyContent={"center"} w='100%' h='500px' bgGradient='linear(to-l, #7928CA, #FF0080)'>
+      
+      <Heading ml={550}>Counter App</Heading>
 
-      <Heading>Counter App</Heading>
+            
 
-      <div>
+     <Flex mt={10} ml={500} background={"blue.400"} rounded={5} height={150} width={"25%"} justifyContent={"center"}>
 
       <Counter/>
 
-    </div>
-          
+      </Flex>
 
-    </div>
+    
+
+    </Box>
   )
 }
 
